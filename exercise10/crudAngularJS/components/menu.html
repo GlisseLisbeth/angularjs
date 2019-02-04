@@ -1,0 +1,27 @@
+<nav class="navbar">
+  <div class="container">
+    <div class="text-center col-md-12"><h1>Servicios</h1></div>
+    <button
+      type="button"
+      class="navbar-toggle"
+      data-toggle="collapse"
+      data-target="#navbar"
+      aria-expanded="false"
+      aria-controls="navbar"
+    >
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav fondo-navbar">
+        <li class="active" ng-model="todos"><a href="#">Todos</a></li>
+        <li ng-click="filtradoServicio('auto')"><a href="#">Auto</a></li>
+        <li ng-click="filtradoServicio('salud')"><a href="#">Salud</a></li>
+        <li ng-click="filtradoServicio('hogar')"><a href="#">Hogar</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
+  <!--/.container-fluid -->
+</nav>

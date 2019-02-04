@@ -1,0 +1,86 @@
+input[type='text'] {
+	margin-bottom: 10px; 
+}
+
+button {
+	margin-left: 10px;
+	margin: 0 auto;
+}
+
+.item{
+	text-transform: capitalize;
+}
+
+.thumbnail{
+	height: 200px;
+	position: relative;
+}
+
+.item.ng-move,
+.item.ng-enter,
+.item.ng-leave {
+  transition:all linear 1s;
+}
+
+.item.ng-leave.ng-leave-active,
+.item.ng-move,
+.item.ng-enter {
+  opacity:0;
+}
+
+.item.ng-leave,
+.item.ng-move.ng-move-active,
+.item.ng-enter.ng-enter-active {
+  opacity:1;
+}
+
+.fondo-navbar {
+	background-color: #eeeeee;
+	width: 100%;
+}
+
+.navbar-nav>li>a {
+	color: #bbbfc0;
+}
+
+.navbar-nav>li.active>a {
+	color: #000000;
+}
+.card-footer {
+	position: absolute;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #eeeeee;
+	height: 40px;
+}
+
+.btn-grabar {
+	border: 1px solid #337ab7;
+	background-color: #ffffff;
+	color: #337ab7;
+	text-shadow: 0 1px 0 #fff;
+}
+
+.btn-cancelar {
+	border: 1px solid #C82332;
+	background-color: #ffffff;
+	color: #C82332;
+	text-shadow: 0 1px 0 #fff;
+}
+
+.box-btn {
+	background: #eeeeee;
+	padding: 10px;
+}
+.box-form {
+	border: 1px solid #eeeeee;
+	padding: 10px;
+}
+
+.invisible {
+	display: none;
+}

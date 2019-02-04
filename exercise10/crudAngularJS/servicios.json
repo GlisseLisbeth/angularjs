@@ -1,0 +1,32 @@
+[
+    {
+        "nombre":"Electricidad",
+        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "tipo": "Hogar"
+    },
+    {
+        "nombre":"Auxiliar Mecánico",
+        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "tipo": "Autos"
+    },
+    {
+        "nombre":"Chofer reemplazo",
+        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "tipo": "Autos"
+    },
+    {
+        "nombre":"Medico a domicilio",
+        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "tipo": "Salud"
+    },
+    {
+        "nombre":"Ambulancia",
+        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "tipo": "Salud"
+    },
+    {
+        "nombre":"Gasfitero",
+        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "tipo": "Hogar"
+    }
+]

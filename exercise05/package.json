@@ -1,0 +1,15 @@
+{
+  "name": "exercise05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercise05.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Glisse Jorge",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^10.1.1"
+  }
+}
